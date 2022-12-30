@@ -4,12 +4,11 @@ import bookRegister from "../assets/bookRegister.svg";
 import GoogleIcon from "@mui/icons-material/Google";
 import "../components/ccs/login.css";
 
-
-function Register (){
-  return(
+function Register() {
+  return (
     <div className="componentLogIn">
       <form className="formRegister">
-      <h2>Registrar</h2>
+        <h2>Registrar</h2>
         <label name="user">Nuevo usuario:</label>
         <input
           id="user"
@@ -18,11 +17,11 @@ function Register (){
           required
         />
         <label name="email">Ingresa tu correo:</label>
-        <input 
-        id="email"
-        type={'email'}
-        placeholder='   ingresa tu correo'
-        required
+        <input
+          id="email"
+          type={"email"}
+          placeholder="   ingresa tu correo"
+          required
         />
         <label name="password">Contraseña:</label>
         <input
@@ -32,11 +31,11 @@ function Register (){
           required
         />
         <label name="password">Repite tu contraseña:</label>
-        <input 
-        id="password"
-        type={"password"}
-        placeholder="   repite tu contraseña"
-        required
+        <input
+          id="password"
+          type={"password"}
+          placeholder="   repite tu contraseña"
+          required
         />
         <fieldset className="buttonsIniReg">
           <button className="startButton">
@@ -54,18 +53,14 @@ function Register (){
         </button>
       </form>
     </div>
-  )
+  );
 }
-
-
-
-
 
 const LogIn = () => {
   return (
     <div className="componentLogIn">
       <form className="formLogIn">
-      <h2>Iniciar sesion</h2>
+        <h2>Iniciar sesion</h2>
         <label name="user">Usuario:</label>
         <input
           id="user"

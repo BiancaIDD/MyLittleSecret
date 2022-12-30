@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.componentMenu{
+  height: 100vh;
+  width: 100%;
+  background-color: #330C2F;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittleMenu{
+  height: 30%;
+}
+
+.buttonsMenu{
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+}
+
+.buttonPenguin, .buttonTurtle{
+  width: 300px;
+  height: 60%;
+  background-color: #5D2E46;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-color: transparent;
+  border-radius: 15px;
+  gap: 20px;
+  font-size: large;
+}
+
+.buttonLogout{
+  height: 20%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.buttonoffice{
+  width: 180px;
+  height: 40%;
+  background-color: #5D2E46;
+  color: white;
+  border-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

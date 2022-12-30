@@ -71,7 +71,7 @@ input{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: large;
+  font-size: larger;
   gap: 10px;
   border-radius: 20px;
 }
